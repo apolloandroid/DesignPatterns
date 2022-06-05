@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory.iml" filepath="$PROJECT_DIR$/Creational/AbstractFactory/AbstractFactory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Creational.iml" filepath="$PROJECT_DIR$/Creational/Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/DesignPatterns.iml" filepath="$PROJECT_DIR$/DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryMethod.iml" />
     </modules>
   </component>
 </project>
