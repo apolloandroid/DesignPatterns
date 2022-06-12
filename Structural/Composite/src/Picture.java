@@ -6,12 +6,12 @@ public class Picture implements Drawable {
     private final List<Drawable> children;
 
     public Picture(Drawable... children) {
-        System.out.println("Drawing picture");
         this.children = Arrays.asList(children);
     }
 
     @Override
     public void draw() {
+        System.out.println("Drawing picture");
         for (Drawable child : children) {
             child.draw();
         }
