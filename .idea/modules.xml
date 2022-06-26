@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Behavioral.iml" filepath="$PROJECT_DIR$/Behavioral/Behavioral.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Bridge/Bridge.iml" filepath="$PROJECT_DIR$/Structural/Bridge/Bridge.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Builder/Builder.iml" filepath="$PROJECT_DIR$/Creational/Builder/Builder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Command/Command.iml" filepath="$PROJECT_DIR$/Behavioral/Command/Command.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Composite/Composite.iml" filepath="$PROJECT_DIR$/Structural/Composite/Composite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Creational.iml" filepath="$PROJECT_DIR$/Creational/Creational.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Structural/Decorator/Decorator.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Structural/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Structural/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational/Singleton/Singleton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Structural.iml" filepath="$PROJECT_DIR$/Structural/Structural.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" filepath="$PROJECT_DIR$/Behavioral/TemplateMethod/TemplateMethod.iml" />
     </modules>
   </component>
 </project>
