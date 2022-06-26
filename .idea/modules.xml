@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/Creational/FactoryMethod/FactoryMethod.iml" filepath="$PROJECT_DIR$/Creational/FactoryMethod/FactoryMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/FlyWeight/FlyWeight.iml" filepath="$PROJECT_DIR$/Structural/FlyWeight/FlyWeight.iml" />
       <module fileurl="file://$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" filepath="$PROJECT_DIR$/Behavioral/Iterator/Iterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Behavioral/Memento/Memento.iml" filepath="$PROJECT_DIR$/Behavioral/Memento/Memento.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Prototype/Prototype.iml" filepath="$PROJECT_DIR$/Creational/Prototype/Prototype.iml" />
       <module fileurl="file://$PROJECT_DIR$/Structural/Proxy/Proxy.iml" filepath="$PROJECT_DIR$/Structural/Proxy/Proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Creational/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Creational/Singleton/Singleton.iml" />
