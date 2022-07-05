@@ -5,7 +5,7 @@ import smartphone.SmartPhone;
 
 public class Main {
     public static void main(String[] args) {
-        CompanyFactory factory = new AppleFactory();
+        CompanyFactory factory = getFactory();
 
         SmartPhone smartPhone = factory.createSmartPhone();
         Notebook noteBook = factory.createNoteBook();
@@ -15,5 +15,9 @@ public class Main {
 
         noteBook.turnOn();
         noteBook.turnOff();
+    }
+
+    private static CompanyFactory getFactory() {
+        return new AppleFactory();
     }
 }
