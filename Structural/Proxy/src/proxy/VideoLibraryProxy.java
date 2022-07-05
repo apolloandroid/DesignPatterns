@@ -6,31 +6,31 @@ import library.VideoLibrary;
 
 import java.util.HashMap;
 
-public class VideoCacheProxy implements IVideoLibrary {
+public class VideoLibraryProxy implements IVideoLibrary {
 
     private IVideoLibrary videoLibrary;
-    private HashMap<String, Video> cachePopular = new HashMap();
+    private HashMap<String, Video> cache = new HashMap();
 
-    public VideoCacheProxy() {
+    public VideoLibraryProxy() {
         this.videoLibrary = new VideoLibrary();
     }
 
     @Override
     public HashMap<String, Video> getPopularVideos() {
-        if (cachePopular.isEmpty()) {
-            cachePopular = videoLibrary.getPopularVideos();
+        if (cache.isEmpty()) {
+            cache = videoLibrary.getPopularVideos();
         } else {
             System.out.println("Retrieved list from cache.");
         }
-        return cachePopular;
+        return cache;
     }
 
     @Override
     public Video getVideo(String id) {
-        Video video = cachePopular.get(id);
+        Video video = cache.get(id);
         if (video == null) {
             video = videoLibrary.getVideo(id);
-            cachePopular.put(id, video);
+            cache.put(id, video);
         } else {
             System.out.println("Retrieved video '" + id + "' from cache.");
         }

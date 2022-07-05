@@ -1,12 +1,12 @@
 import library.IVideoLibrary;
 import library.VideoLibrary;
-import proxy.VideoCacheProxy;
+import proxy.VideoLibraryProxy;
 
 public class Main {
 
     public static void main(String[] args) {
         IVideoLibrary library = new VideoLibrary();
-        IVideoLibrary proxy = new VideoCacheProxy();
+        IVideoLibrary proxy = new VideoLibraryProxy();
 
         long libraryTime = test(library);
         long proxyTime = test(proxy);

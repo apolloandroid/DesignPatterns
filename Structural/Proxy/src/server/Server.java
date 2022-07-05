@@ -17,14 +17,6 @@ public class Server {
         System.out.println("Connected!");
     }
 
-    private void simulateNetWorkLatency() {
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-
     public HashMap<String, Video> getPopularVideos() {
         System.out.println("Downloading popular videos");
         simulateNetWorkLatency();
@@ -45,5 +37,13 @@ public class Server {
         Video video = new Video(id, "library.Video title");
         System.out.print("Done!" + "\n");
         return video;
+    }
+
+    private void simulateNetWorkLatency() {
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
