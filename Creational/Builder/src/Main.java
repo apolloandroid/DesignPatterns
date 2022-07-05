@@ -8,6 +8,12 @@ import component.Type;
 
 public class Main {
     public static void main(String[] args) {
+        Builder applicationBuilder = getBuilder();
+        Application application = applicationBuilder.getResult();
+        System.out.println(application.toString());
+    }
+
+    private static Builder getBuilder() {
         Builder applicationBuilder = new ApplicationBuilder();
         applicationBuilder.setVersion(1.0);
         applicationBuilder.setName("Android application");
@@ -17,7 +23,6 @@ public class Main {
         applicationBuilder.setUserInterface(true);
         applicationBuilder.setType(Type.MOBILE);
         applicationBuilder.setDataBase(DataBase.SQLITE);
-        Application application = applicationBuilder.getResult();
-        System.out.println(application.toString());
+        return applicationBuilder;
     }
 }
