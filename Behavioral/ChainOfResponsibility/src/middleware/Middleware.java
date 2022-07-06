@@ -11,7 +11,7 @@ public abstract class Middleware {
     public abstract boolean checkUserData(String email, String password);
 
     protected boolean checkNextMiddlewareExist(String email, String password) {
-        if (nextMiddleware == null) return true;
+        if (nextMiddleware == null) return false;
         return nextMiddleware.checkUserData(email, password);
     }
 }
