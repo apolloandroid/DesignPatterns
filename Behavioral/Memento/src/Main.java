@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        String firstText = "The Memento Design Pattern\n";
-        String secondText = "The Memento Design Pattern\n";
-        String thirdText = "The Memento Design Pattern\n";
+        String firstText = "first\n";
+        String secondText = "second\n";
+        String thirdText = "third";
 
         TextEditor textEditor = new TextEditor(new TextWindow());
         textEditor.write(firstText);
