@@ -4,10 +4,6 @@ public class Eating implements Activity {
 
     private static Eating instance = null;
 
-    private Eating() {
-
-    }
-
     public static Eating getInstance() {
         if (instance == null) instance = new Eating();
         return instance;
