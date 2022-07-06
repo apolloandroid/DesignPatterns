@@ -29,8 +29,7 @@ public class Main {
         server.register("admin@example.com", "admin_pass");
         server.register("user@example.com", "user_pass");
         Middleware middleware = new ThrottlingMiddleware(2);
-        middleware
-                .linkWith(new UserExistMiddleware(server)
+        middleware.linkWith(new UserExistMiddleware(server)
                         .linkWith(new RoleCheckMiddleware())
                 );
         server.setMiddleware(middleware);
