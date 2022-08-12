@@ -1,4 +1,6 @@
 # DesignPatterns
+Simple realization of classic design patterns from Gang of Four.
+
 The project is divided into three main modules in accordance with the classification of patterns from the Gang of Four:
 - Behavioral 
 - Creational
