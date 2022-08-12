@@ -1,5 +1,8 @@
 # DesignPatterns
-The project is divided into three main modules in accordance with the classification of patterns from the Gang of Four. 
+The project is divided into three main modules in accordance with the classification of patterns from the Gang of Four:
+- Behavioral 
+- Creational
+- Structural
 
 Each pattern within these modules is in turn in a separate module.
 
