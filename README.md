@@ -3,4 +3,4 @@ The project is divided into three main modules in accordance with the classifica
 
 Each pattern within these modules is in turn in a separate module.
 
-The project is written in Java
+The project is written in Java.
