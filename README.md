@@ -7,3 +7,5 @@ The project is divided into three main modules in accordance with the classifica
 Each pattern within these modules is in turn in a separate module.
 
 The project is written in Java.
+
+The theoretical basis of the patterns is taken from the site: https://sourcemaking.com/design_patterns
